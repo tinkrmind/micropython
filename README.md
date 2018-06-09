@@ -33,3 +33,10 @@ Resources to help you get started with micropython on a BBC microbit
 * help() - Get help on any function. eg. help(pin0.write_digital)
 * dir() - Short for directory. eg. dir()
 * *bonus command*: try typing 'import this' in the REPL
+
+### Where to buy microbit:
+
+* [Microcenter -NYC](http://www.microcenter.com/product/480031/MicroBit)
+* [Tinkersphere - NYC](http://tinkersphere.com/wearable-electronics/2195-bbc-micro-bit.html)
+* [Sparkfun](https://www.sparkfun.com/products/14208)
+* [Adafruit](https://www.adafruit.com/product/3362)
