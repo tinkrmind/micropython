@@ -68,10 +68,11 @@ while True:
         print(rec)
     if rec == 'amitabh':
         display.show(Image.HEART, 100)
-        sleep(1000)
+        sleep(3000)
         display.clear()
         radio.send('david')
-
+    sleep(500)
+    
 ############# Radio Send ##############
 from microbit import *
 import radio
@@ -85,3 +86,5 @@ while True:
 
     if button_a.get_presses() > 0:
         radio.send('amitabh')
+    
+    sleep(500)
