@@ -24,13 +24,11 @@
 
 * Open atom or similar text editor
 * Copy paste the following code:
-<code>
+<pre><code>
 import board
 import digitalio
 import time
-
-pin_name = board.L
-
+pin_name = board.D13
 led = digitalio.DigitalInOut(pin_name)
 led.direction = digitalio.Direction.OUTPUT
 while True:
@@ -38,5 +36,8 @@ while True:
     time.sleep(0.1)
     led.value = False
     time.sleep(0.1)
-    </code>
+    </code></pre>
     
+## Install Mu
+
+* Install Mu from [here](https://codewith.mu/en/download)
